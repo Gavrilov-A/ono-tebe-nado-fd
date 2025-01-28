@@ -1,1 +1,18 @@
-/* место для вашего кода */
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    height: 293px;
+
+}
+
+.menu-links {
+    display: flex;
+    gap: 32px;
+    list-style-type: circle;
+}
+
+.logo-black-img {
+    width: 148px;
+    height: 105px;
+}
