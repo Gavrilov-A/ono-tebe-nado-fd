@@ -2,17 +2,18 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding: 92px 50px 92px;
+    padding: 92px 50px 96px;
 }
 
 .header-text-style { 
+    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
 }
 
 .header__menu {
-    align-items: center;
+    text-underline-offset: 4px;
 }
 
 .header__links-list {
@@ -35,8 +36,12 @@
     height: 98px;
 }
 
-.header__logo-image {
+.header__logo {
     width: 148px;
+    height: 105px;
+}
+
+.header__logo-image {
     height: 105px;
 }
 
@@ -79,10 +84,6 @@
     letter-spacing: 30px;
     text-transform: uppercase;
     color: white;
-}
-
-.aligned-text {
-
 }
 
 .aligned-text_center {
@@ -193,7 +194,11 @@
     color: #FFFFFF;
 }
 
-.lots__look-more-link {
+.lots__look-more-link { 
+    text-underline-offset: 4px;
+}
+
+.lots__look-more-link-text-style {
     margin-left: 40px;
     font-weight: 400;
     font-size: 20px;
@@ -256,6 +261,10 @@
     text-decoration: none;
 }
 
+.footer__menu-link {
+    text-underline-offset: 4px;
+}
+
 .footer__social {
     display: flex;
     justify-content: space-between;
@@ -270,4 +279,19 @@
     display: flex;
     gap: 48px;
     list-style: none;
+}
+
+.footer__address-text-style { 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-underline-offset: 4px;
+}
+
+.footer__menu-text-style {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-underline-offset: 4px;
 }
